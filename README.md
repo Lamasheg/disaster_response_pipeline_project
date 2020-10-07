@@ -41,13 +41,16 @@ The project is implimented in steps to achieve the final goal, following are the
     
 
 - run the following commans in command line within the project directory: 
-   a.Save preprocessed data: 
-      python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
-   b.train the model:
-      python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
-   c.run the following command within the directory where run.py is located:
-      python run.py
-   d.Go to http://0.0.0.0:3001/
+   a. Save preprocessed data: 
+      'python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db'
+      
+   b. train the model: 
+      'python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl'
+      
+   c. run the following command within the directory where run.py is located:
+      'python run.py'
+      
+   d. Go to http://0.0.0.0:3001/
     
 ## Results<a name="results"></a>
 
